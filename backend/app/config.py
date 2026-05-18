@@ -8,8 +8,7 @@ class Settings(BaseSettings):
     environment: str = "development"
     log_level: str = "INFO"
 
-    # Added when LLM layer lands (Day 2)
-    # anthropic_api_key: str = ""
+    anthropic_api_key: str = ""
 
     # Added when auth layer lands (Day 3)
     # supabase_url: str = ""
